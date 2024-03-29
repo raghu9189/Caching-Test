@@ -5,7 +5,7 @@ const myCache = new nodeCache( { stdTTL: 3600});
 
 // Create an Express application
 const app = express();
-const port = 3000; // Port number you want to listen on
+const port = 8080; // Port number you want to listen on
 
 // Define a route handler for the root path
 app.get('/:id', (req, res) => {
