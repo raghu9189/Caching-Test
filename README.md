@@ -124,6 +124,7 @@ curl http://localhost:8080/cache-stats
 * Add persistent storage (e.g., Redis) for distributed caching
 * Add support for query string parameters
 * Use a structured logging library instead of `console.log`
+* Use ESModules
 
 ---
 
